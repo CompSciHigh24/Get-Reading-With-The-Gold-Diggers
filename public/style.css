@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  background-color: #3A5A40 !important; 
+  
+}
+label{
+  font-size: 25px !important;
+}
+navbar{
+  background-color: #588157 !important;
+}
+#studentid{
+  border-color: inherit !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-color:transparent !important;
+  outline:none !important;
+  border:#3A5A40  !important;
+   background-color: #3A5A40 !important; 
+}
