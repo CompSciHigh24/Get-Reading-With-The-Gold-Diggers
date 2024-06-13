@@ -91,7 +91,10 @@ const bookSchema = new mongoose.Schema({
   title: { type: String, required: true },
   author: { type: String, required: true },
   studentId: { type: mongoose.Schema.Types.ObjectId, ref: "Student" },
-  currentBook: { type: Boolean, required: true },
+  currentBook: { type: Boolean, required: true }
+  
+   
+ 
 });
 const Book = mongoose.model("Book", bookSchema);
 

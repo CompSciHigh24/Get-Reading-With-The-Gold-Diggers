@@ -4,76 +4,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome student</title>
   <link rel="stylesheet" href="/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body >
  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/admin">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Other Students
-          </a>
-   
-        </li>
-      </ul>
+ 
+
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand"  src="" href="/admin"><img src="https://static1.squarespace.com/static/5b328976aa49a1b7b46b89c3/t/5b328c90575d1ff0174390ba/1710002027821/" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/admin">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Students
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/student/6652605afdecc3df37ec805f">Jasmine Almonte</a></li>
+                <li><a class="dropdown-item" href="/student/6652728bb35673ac5a4557bf">Makayla Brown</a></li>
+                <li><a class="dropdown-item" href="/student/665274451c4b3b958980e067">Miriam Clemente</a></li>
+                  <li><a class="dropdown-item" href="/student/665297d9ff2ee438721e9f79">Jaliyah Collier</a></li>
+                    <li><a class="dropdown-item" href="/student/665298bc140bf7363d7a8062">Zyaire Dowe</a></li>
+                      <li><a class="dropdown-item" href="/student/6652988038903bd0c6cb331b">Joel Frimpong</a></li>
+                        <li><a class="dropdown-item" href="/student/665299326d354e271de3ff28">Yuliana Garcia</a></li>
+                          <li><a class="dropdown-item" href="/student/6655306d4abe99cdcca58dc5">Rakeem Grace</a></li>
+                            <li><a class="dropdown-item" href="/student/665530bd3ad6881897d3ba20">Jayden James</a></li>
+                              <li><a class="dropdown-item" href="/student/6655311ba35f8304bdb1379e">Kamari Leonard</a></li>
+                                <li><a class="dropdown-item" href="/student/6655318234fa8bc708f741c6">Cleve Manning</a></li>
+                                  <li><a class="dropdown-item" href="/student/665531e7596d40369e612ed3">Kercy Martelly</a></li>
+                                    <li><a class="dropdown-item" href="/student/664e8fd88425abf6a72cc5a8">Seven Medina</a></li>
+                                      <li><a class="dropdown-item" href="/student/66553250a386a4a4b2740ae0">Chelsea Taylor Moore</a></li>
+                                        <li><a class="dropdown-item" href="/student/66553283de431741900f3019">Adam Osorio Castillo</a></li>
+                                          <li><a class="dropdown-item" href="/student/665532b26dec47cc4d21b7ea">Kyle Paris</a></li>
+                                            <li><a class="dropdown-item" href="/student/665532dafa29068d3770d563">Rihanna Purandah</a></li>
+                                              <li><a class="dropdown-item" href="/student/665533032bad5184232d828a">Annmary Quinones</a></li>
+                                                <li><a class="dropdown-item" href="/student/6655332b38271f36767a03bb">Mohammed Rashid</a></li>
+                                                  <li><a class="dropdown-item" href="/student/66553fba5a546e50b0fb9e03">Joshua Rodriguez</a></li>
+                                                    <li><a class="dropdown-item" href="/student/66553fdcd77ad3ff9a3e3505">Kaycee Rodriguez</a></li>
+                                                      <li><a class="dropdown-item" href="/student/66554005ed78fc4886fcfd1b">Corey Span</a>
+                                                        <li><a class="dropdown-item" href="/student/66554045ce8a5183d0b71d6c">Jayson Sprouse</a></li>
+
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
     </div>
   </nav>
   
   
-  <!-- <nav class="navbar navbar-light bg-light"  >
-   <ul>
-   <a class="navbar-brand" href="/admin">
-      <img src="https://static1.squarespace.com/static/5b328976aa49a1b7b46b89c3/t/5b328c90575d1ff0174390ba/1710002027821/" width="150" height="150" alt="">
-      Home
-    </a>
-     <class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Dropdown link
-       </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <a class="dropdown-item" href="#">Action</a>
-         <a class="dropdown-item" href="#">Another action</a>
-         <a class="dropdown-item" href="#">Something else here</a>
-       </div>
-     
-  </nav>
-  </ul> -->
-   <!-- <ul>
-  <% for(let i = 0; i < books.length; i++) { %>
-    <% if(books[i].currentBook == false){ %>
-        <li> <%= books[i].name %></li>
-      <%} %>
-    <%}%>
-    </ul> -->
+ 
     <h2>Add a book</h2>
-
+ 
+      <br>
     <form>
       <!-- <div class="form-group"> -->
         <!-- <input type="text" class="form-control" id="studentId" name=<%= _id %>> -->
       <label>Book's Title</label>
-        <input type="text" class="form-control" id="title" name="title">
+        <input type="text" class="form-control" id="title" name="title" required>
       <!-- </div> -->
       <!-- <div class="form-group"> -->
         <label>The Author of The Book</label>
-        <input type="text" class="form-control" name="author">
+        <input type="text" class="form-control" name="author" required>
       <!-- </div> -->
       <!-- <div class="form-group"> -->
-        <label >Are you currently reading this book?</label>
+        <!-- <label>Date Started</label>
+        <input type="date" class="form-control" name="startDate"> -->
+      
+      <label >Are you currently reading this book?</label>
 
-      <select class="form-control" id="currentbook" name="currentBook">
+      <select class="form-control" id="currentbook" name="currentBook" required>
           <option value="true">Yes</option>
           <option value="false">No</option>
         </select>
 
       <label id="studentid"></label>
-      <input style="color: #3A5A40;" type="text" class="form-control" name="studentId" value="<%= _id %>" id="studentid" readonly>
+      <input style="color: #a3b18a;" type="text" class="form-control" name="studentId" value="<%= _id %>" id="studentid" readonly>
 
       <!-- </div> -->
        <button type="submit" class="form-control"<%= _id %>">Add Book</button>
@@ -91,6 +110,7 @@
               <div class="card-body">
                    <h5 class="card-title"> <%= books[i].title %></h5>
                    <p class="card-text"> <%= books[i].author %></p>
+                  
                 <button  class="updateForm" value=<%=books[i]._id%> >Finished Reading?</button>
                    <button class="deleteForm" value=<%=books[i]._id%>>Delete Book</button>
               </div>
@@ -121,9 +141,11 @@
 
           <% } %>
             <% } %>
-
+                           <br>
+                           <img src="https://i.pinimg.com/originals/5e/5f/cd/5e5fcd2efe9b4eb3bbaace2a02b29185.gif" alt="Italian Trulli" id="gif" >
         
   </div>
 <script src = '/script.js' defer></script>
+                           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

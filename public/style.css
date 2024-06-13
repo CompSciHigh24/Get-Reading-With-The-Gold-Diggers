@@ -3,9 +3,14 @@ html {
   width: 100%;
   text-align: center;
 }
+.form-control{
+  width: 60vw !important;
+  margin-left: 20vw !important;
+    
+}
 
 body {
-  background-color: #3A5A40 !important; 
+  background-color: #a3b18a !important; 
   
 }
 label{
@@ -20,6 +25,15 @@ navbar{
   box-shadow: none !important;
   outline-color:transparent !important;
   outline:none !important;
-  border:#3A5A40  !important;
-   background-color: #3A5A40 !important; 
+  border:#a3b18a  !important;
+   background-color: #a3b18a !important; 
+}
+form{
+  font-family: "Times New Roman", Times, serif !important;
+}
+#gif{
+    width: 200px;
+    height: auto;
+  margin-left: auto;
+  float: right;
 }
